@@ -5,19 +5,16 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
 
-const NavbarMain = () => {
+const NavbarProject = () => {
 
-    const handleScrollToTop = () => {
-        animateScroll.scrollToTop();
-    };
     return (
         <Navbar bg="light" expand="lg" sticky="top" >
             <Container>
-                <Navbar.Brand onClick={handleScrollToTop}>EC</Navbar.Brand>
+                <Navbar.Brand href="/" >EC</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link><Link to="home" spy={true} smooth={true} offset={-50} duration={500}>Home</Link></Nav.Link>
+                        <Nav.Link href="/">Home</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
@@ -26,4 +23,4 @@ const NavbarMain = () => {
 
 }
 
-export default NavbarMain;
+export default NavbarProject;
