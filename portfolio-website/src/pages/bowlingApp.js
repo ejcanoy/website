@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import NavbarProject from "../components/navproject";
 import { Row, Carousel, Container, Col } from "react-bootstrap";
 import '../test.css';

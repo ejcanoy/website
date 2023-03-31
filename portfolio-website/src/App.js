@@ -7,8 +7,6 @@ import StudentRecordSystem from './pages/studentRecordSystem';
 import HelpAlong from './pages/helpAlong';
 import Shottracker from './pages/shottracker';
 import Home from './pages/home'
-import Test from './pages/test';
-
 
 
 

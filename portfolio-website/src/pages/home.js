@@ -1,8 +1,7 @@
-import React, { useRef, useEffect} from "react";
-import { useLocation, useNavigate } from 'react-router-dom';
+import React, { useRef } from "react";
 import NavbarMain from '../components/nav';
 import { FiletypePdf, Linkedin, Github } from 'react-bootstrap-icons';
-import { Card, Button, Image, Row, Col, Container, Form } from 'react-bootstrap';
+import { Card, Button, Row, Col, Container, Form } from 'react-bootstrap';
 import myImage from '../images/pins.png';
 import eyeImage from '../images/EYE_Logo.png';
 import cryptoImage from '../images/cryptotracker.png';
