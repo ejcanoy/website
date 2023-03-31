@@ -26,6 +26,8 @@ const Home = () => {
             }, (error) => {
                 console.log(error.text);
             });
+
+        alert("Email Sent");
     };
 
     return (
