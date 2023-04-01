@@ -33,7 +33,7 @@ const Home = () => {
     return (
         <>
             <NavbarMain />
-            <Container>
+            <Container >
                 <Row id="home">
                     <Col className="masthead">
                         {/* <div className="masthead" ></div> */}
@@ -53,10 +53,12 @@ const Home = () => {
                     <Col xs={3}></Col>
                     <Col xs={6}>
                         <p>
-                            My name is Euan Canoy and I am a software developer based out of
-                            Seattle, Washington. I graduated from the University of Washington,
-                            Bothell in August of 2022. I am interested in
-                            full stack development and cloud computing.
+                            My name is Euan Canoy! I am a software developer
+                            based out of Seattle, Washington. I graduated from
+                            The University of Washington Bothell in August of 2022.
+                            My current interest is in full-stack development and
+                            cloud computing, but check out my projects below,
+                            download my resume, or visit my links to learn more!
                         </p>
                     </Col>
                     <Col xs={1}></Col>
@@ -74,13 +76,13 @@ const Home = () => {
                 </Row>
                 <Row id="projects">
                     <Row>
+                        <Row className="py-5">
+                            <h1>Projects</h1>
+                        </Row>
                         <Row>
-                            <Row className="py-5">
-                                <h1>Projects</h1>
-                            </Row>
                             <Col className="col-12 col-md p-3 py-sm-3">
                                 <Card className="h-100">
-                                    <Card.Img variant="top" src={myImage} style={{height: '250px'}}/>
+                                    <Card.Img variant="top" src={myImage} style={{ height: '250px' }} />
                                     <Card.Body>
                                         <Card.Title>Bowling App</Card.Title>
                                         <Card.Text>
@@ -96,11 +98,11 @@ const Home = () => {
                             </Col >
                             <Col className="col-12 col-md p-3 py-sm-3">
                                 <Card className="h-100">
-                                    <Card.Img variant="top" src={eyeImage} style={{ height: '250px'}}/>
+                                    <Card.Img variant="top" src={eyeImage} style={{ height: '250px' }} />
                                     <Card.Body>
                                         <Card.Title>EYE Research Group</Card.Title>
                                         <Card.Text>
-                                            A non-profit that serves to create 
+                                            A non-profit that serves to create
                                             products that makes vision testing a more accessible.
                                         </Card.Text>
                                         <Button variant="primary" href="/eye-research-group" >Learn More</Button>
@@ -111,7 +113,7 @@ const Home = () => {
                             </Col>
                             <Col className="col-12 col-md p-3 py-sm-3">
                                 <Card className="h-100">
-                                    <Card.Img variant="top" src={cryptoImage} style={{height: '250px'}}/>
+                                    <Card.Img variant="top" src={cryptoImage} style={{ height: '250px' }} />
                                     <Card.Body>
                                         <Card.Title>CryptoTracker</Card.Title>
                                         <Card.Text>
@@ -130,7 +132,7 @@ const Home = () => {
                         <Row>
                             <Col className="col-12 col-md p-3 py-sm-3">
                                 <Card className="h-100">
-                                    <Card.Img variant="top" src={xmenImage} style={{height: '250px'}}/>
+                                    <Card.Img variant="top" src={xmenImage} style={{ height: '250px' }} />
                                     <Card.Body>
                                         <Card.Title>Student Record System</Card.Title>
                                         <Card.Text>
@@ -145,11 +147,11 @@ const Home = () => {
                             </Col>
                             <Col className="col-12 col-md p-3 py-sm-3">
                                 <Card className="h-100">
-                                    <Card.Img variant="top" src={shotImage} style={{height: '250px'}}/>
+                                    <Card.Img variant="top" src={shotImage} style={{ height: '250px' }} />
                                     <Card.Body>
                                         <Card.Title>Shot Tracker</Card.Title>
                                         <Card.Text>
-                                            Web application that tracks and displays trends 
+                                            Web application that tracks and displays trends
                                             in shooting data
                                         </Card.Text>
                                         <Button variant="primary" href="/shottracker" >Learn More</Button>
@@ -160,7 +162,7 @@ const Home = () => {
                             </Col>
                             <Col className="col-12 col-md p-3 py-sm-3">
                                 <Card className="h-100">
-                                    <Card.Img variant="top" src={helpImage} style={{height: '250px'}}/>
+                                    <Card.Img variant="top" src={helpImage} style={{ height: '250px' }} />
                                     <Card.Body>
                                         <Card.Title>HelpAlong</Card.Title>
                                         <Card.Text>

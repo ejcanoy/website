@@ -23,7 +23,7 @@ const EYEResearchGroup = () => {
                         <br/>
 
                         <p>
-                            Designed and implemented webpages with practical application for obtaining consent forms used
+                            Designed and implemented webpages and databases with practical application for obtaining consent forms used
                             in eye management by Near Vision Institute. This tool streamlined the consent form process with
                             improved data processing. In conjunction, I designed and executed a web-based patient intake
                             form completed by patients prior to initial visits with the provider. Made with PHP, HTML,

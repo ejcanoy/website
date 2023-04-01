@@ -34,6 +34,7 @@ const HelpAlong = () => {
                     </Col>
 
                     <Col className="col">
+                        <br/>
                         Produced a new web app in 48 hours in collaboration with a team of 
                         UW students that connects end-users in non-emergency situations to a database of social and mental
                         health resources in the state of Washington. Made during the Hack 20' Hackathon with
