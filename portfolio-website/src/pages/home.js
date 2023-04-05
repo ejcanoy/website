@@ -38,7 +38,7 @@ const Home = () => {
                     <Col className="masthead">
                         {/* <div className="masthead" ></div> */}
                         <Col className="color-overlay d-flex justify-content-center align-items-center">
-                            <h1>HELLO, I'M EUAN</h1>
+                            <h1 className="h1-color">HELLO, I'M EUAN</h1>
                         </Col>
                     </Col>
                 </Row>
@@ -188,7 +188,7 @@ const Home = () => {
                             </Form.Group>
                             <Form.Group controlId="formEmail">
                                 <Form.Label>Email</Form.Label>
-                                <Form.Control type="text" name="email" placeholder="Enter email" />
+                                <Form.Control type="email" name="email" placeholder="Enter email" />
                             </Form.Group>
                             <Form.Group>
                                 <Form.Label>Message</Form.Label>

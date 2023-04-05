@@ -69,8 +69,8 @@ const BowlingApp = () => {
                         <br/>
                         <br/>
                         Programmed a full stack bowling application that tracks the score of 3 game sets for league
-                        and the type of pins knocked down per frame. Made the front end with javascript and React.
-                        Created the REST API with Express, JavaScript, and AWS DynamoDB.
+                        and the type of pins knocked down per frame. Made the front end with React,HTML, CSS, bootstrap,
+                        and JavaScript. Created the REST API with Express, JavaScript, and AWS DynamoDB.
                     </Col>
                 </Row>
             </Container>

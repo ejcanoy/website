@@ -27,7 +27,7 @@ const EYEResearchGroup = () => {
                             in eye management by Near Vision Institute. This tool streamlined the consent form process with
                             improved data processing. In conjunction, I designed and executed a web-based patient intake
                             form completed by patients prior to initial visits with the provider. Made with PHP, HTML,
-                            MySQL, AWS EC2, AWS RDS.
+                            MySQL, bootstrap, AWS EC2, AWS RDS.
                         </p>
                     </Col>
                 </Row>
