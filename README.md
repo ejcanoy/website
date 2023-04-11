@@ -1,5 +1,5 @@
 # website
-![screenshot of my profolio](portfolio.png)
+![screenshot of my profolio](porfolio.png)
 This is my portfolio website. It's on render at
 https://euan-canoy-portfolio.onrender.com/
 
