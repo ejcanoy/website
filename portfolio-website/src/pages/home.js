@@ -64,7 +64,7 @@ const Home = () => {
                     <Col xs={1}></Col>
                     <Col>
                         <Row className="p-1">
-                            <Button href={resume} download="2023-2-Resume.pdf"><FiletypePdf /> Download Resume</Button>
+                            <Button href={resume} download="4-6-Resume.pdf"><FiletypePdf /> Download Resume</Button>
                         </Row>
                         <Row className="p-1">
                             <Button href="https://www.linkedin.com/in/euan-canoy-8b3530180/" target="_blank"><Linkedin /> Linkedin</Button>
